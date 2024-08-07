@@ -11,6 +11,6 @@ return {
 				delay = 200,
 			},
 		})
-		vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", {})
+		vim.keymap.set("n", "<leader>gh", ":Gitsigns preview_hunk<CR>", {})
 	end,
 }
